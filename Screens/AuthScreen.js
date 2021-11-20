@@ -1,12 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Colors from '../Constants/Colors';
-
+import {  Box } from 'native-base';
 export default function AuthScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Auth Screen</Text>
+      <Box _text={{color:"brand.secondary"}}>Hello world</Box>
     </View>
+   
   );
 }
 
